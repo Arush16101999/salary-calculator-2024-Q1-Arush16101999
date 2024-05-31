@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* text-align: end; */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: end;
+  align-items: start;
+  text-align: end;
+  font-weight: 500;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  font-weight: 500;
+}

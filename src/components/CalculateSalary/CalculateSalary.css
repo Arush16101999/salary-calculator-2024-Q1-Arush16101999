@@ -1,14 +1,17 @@
-.App {
-  padding: 20px;
+.header-card {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
   justify-content: space-between;
-  /* align-items: center; */
+}
+
+.blue-link {
+  color: blue;
 }
 
 @media (max-width: 1000px) {
-  .App {
+  .header-card {
     flex-wrap: wrap;
+    align-items: center;
   }
 }
